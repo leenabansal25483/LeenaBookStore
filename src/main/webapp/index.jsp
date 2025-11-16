@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BookHub</title>
+    <title>Nisha BookStore</title>
 </head>
 <body>
     <h2>Welcome to MY BookHub Store</h2>
