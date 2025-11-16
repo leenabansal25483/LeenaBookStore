@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+  <servlet>
+    <servlet-name>AddBookServlet</servlet-name>
+    <servlet-class>com.bookhub.servlet.AddBookServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddBookServlet</servlet-name>
+    <url-pattern>/addBook</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewBooksServlet</servlet-name>
+    <servlet-class>com.bookhub.servlet.ViewBooksServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ViewBooksServlet</servlet-name>
+    <url-pattern>/viewBooks</url-pattern>
+  </servlet-mapping>
+</web-app>
