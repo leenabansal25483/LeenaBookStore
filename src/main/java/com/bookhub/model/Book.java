@@ -1,6 +1,3 @@
-//Name :- Vishnu ranjan			Reg.No:-2023pufcebcex13745
-
-
 package com.bookhub.model;
 
 public class Book {
